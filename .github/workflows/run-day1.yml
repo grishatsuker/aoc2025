@@ -24,6 +24,10 @@ jobs:
         with:
           go-version: '1.21'
 
-      - name: Run code.go
+      - name: Run code_part1.go
         working-directory: aoc2025/day1
-        run: go run code.go
+        run: go run code_part1.go
+
+      - name: Run code_part2.go
+        working-directory: aoc2025/day1
+        run: go run code_part2.go
